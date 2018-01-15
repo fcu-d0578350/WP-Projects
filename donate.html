@@ -2,25 +2,25 @@
 
 <html>
 
-<SCRIPT LANGUAGE="JavaScript"> 
+<SCRIPT LANGUAGE="JavaScript">
 
-function Login(){ 
+function Login(){
 
-	var done=0; 
-	var username=document.login.username.value; 
-	username=username.toLowerCase(); 
+	var done=0;
+	var username=document.login.username.value;
+	username=username.toLowerCase();
 
-	var password=document.login.password.value; 
-	password=password.toLowerCase(); 
+	var password=document.login.password.value;
+	password=password.toLowerCase();
 
-	if (username=="1111" && password=="1234") { 
-		window.location="feature_login.html"; 
-		done=1; 
-	} 
+	if (username=="1111" && password=="1234") {
+		window.location="feature_login.html";
+		done=1;
+	}
 	if (done==0) {
-		alert("您的帳號或密碼錯誤!!"); 
-	} 
-} 
+		alert("您的帳號或密碼錯誤!!");
+	}
+}
 
 </SCRIPT>
 
@@ -39,7 +39,7 @@ function Login(){
 <body>
 
 
-</div> 
+</div>
 <div class="container">
 	<header id="siteID" role="banner">
 		<h1>Donate登入頁面</h1>
@@ -50,15 +50,15 @@ function Login(){
 	<div class="col span_8">
 	<main role="main">
 	<article class="box">
-	
+
 	<form name=login>
 	<h1> 請登入您的帳戶</h1>
-	<center> 
-		<form name=login> 	
-			帳號：</font></td><td><input type=text name=username></td> 	
+	<center>
+		<form name=login>
+			帳號：</font></td><td><input type=text name=username></td>
 			密碼：</font></td><td><input type=password name=password></td>
 			<input type=button value='確 定 送 出' onClick="Login()"
-		</form> 
+		</form>
 	</center>
 	</form>
 </article>
