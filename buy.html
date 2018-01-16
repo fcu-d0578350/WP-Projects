@@ -13,10 +13,17 @@ function Login(){
 	var password=document.login.password.value;
 	password=password.toLowerCase();
 
+<<<<<<< HEAD
 	if (username=="1111" && password=="1234") {
 		window.location="donate_login.html";
 		done=1;
 	}
+=======
+	if (username=="1111" && password=="1234") { 
+		window.location="buy_login.html"; 
+		done=1; 
+	} 
+>>>>>>> 5fc6628f633ca0d2bfac337de6b3fd0dcb46e15b
 	if (done==0) {
 		alert("您的帳號或密碼錯誤!!");
 	}
@@ -42,7 +49,11 @@ function Login(){
 </div>
 <div class="container">
 	<header id="siteID" role="banner">
+<<<<<<< HEAD
 		<h1>Donate登入頁面</h1>
+=======
+		<h1>購買產品登入頁面</h1>
+>>>>>>> 5fc6628f633ca0d2bfac337de6b3fd0dcb46e15b
 		<p class="description">錫民讓我過</p>
 	</header>
 
@@ -55,9 +66,16 @@ function Login(){
 	<h1> 請登入您的帳戶</h1>
 	<center>
 		<form name=login>
+<<<<<<< HEAD
 			帳號：</font></td><td><input type=text name=username></td>
 			密碼：</font></td><td><input type=password name=password></td>
 			<input type=button value='確 定 送 出' onClick="Login()"
+=======
+		<div style="text-align:middle;">
+		帳號：<input type="text" name="username"><br> 	
+		密碼：<input type="password" name="password"><br> 	
+		<input type=button value='確 定 送 出' onClick="Login()"
+>>>>>>> 5fc6628f633ca0d2bfac337de6b3fd0dcb46e15b
 		</form>
 	</center>
 	</form>

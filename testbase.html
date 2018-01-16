@@ -1,35 +1,34 @@
 <!DOCTYPE HTML>
 
 <html>
-<SCRIPT LANGUAGE="JavaScript"> 
+<SCRIPT LANGUAGE="JavaScript">
 
-function Login(){ 
+function Login(){
 
-	var done=0; 
-	var username=document.login.username.value; 
-	username=username.toLowerCase(); 
+	var done=0;
+	var username=document.login.username.value;
+	username=username.toLowerCase();
 
-	var password=document.login.password.value; 
-	password=password.toLowerCase(); 
+	var password=document.login.password.value;
+	password=password.toLowerCase();
 
-	if (username=="1111" && password=="1234") { 
-		window.location="testbase_login.html"; 
-		done=1; 
-	} 
+	if (username=="1111" && password=="1234") {
+		window.location="testbase_login.html";
+		done=1;
+	}
 	if (done==0) {
-		alert("您的帳號或密碼錯誤!!"); 
-	} 
-} 
+		alert("您的帳號或密碼錯誤!!");
+	}
+}
 
 </SCRIPT>
-<style> 
-.divcss5-right{width:810px; height:60px;float:right} 
-</style>
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>南投文化之美</title>
+<title>南投文化之美
+
+</title>
 
 <link rel="stylesheet" media="all" href="css/style.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -40,18 +39,18 @@ function Login(){
 
 <body>
 
-<div class="divcss5-right">
-<form name=login>
-	帳號：</font></td><td><input type=text name=username></td> 	
-	密碼：</font></td><td><input type=password name=password></td>
-	<input type=button value='確 定 送 出' onClick="Login()"
-</form>
-</div>
 
 <div class="container">
   <div class="row">
     <header id="siteID" role="banner">
       <h1>南投文化之美</h1>
+		<form name=login>
+		<div style="text-align:right;">
+		帳號：<input type="text" name="username"><br>
+		密碼：<input type="password" name="password"><br>
+		<input type=button value='確 定 送 出' onClick="Login()"
+		</form>
+		</div>
       <p class="description">錫民讓我過</p>
     </header>
 
@@ -137,16 +136,16 @@ function Login(){
 
 <dl class="newentry row">
 <dt>
-<h5><i class="icon-file-text-alt"></i> <a href="#">購買產品</a></h5></dt>
-<dd class="row">
-<p><img src="images/shopping.jpg"  alt="" width="100" height="100"/>It's Shopping Times.</p></dd>
-<dt>
-<h5><i class="icon-file-text-alt"></i> <a href="feature.html">當地特色</a></h5></dt>
-<dd class="row">
-<p><img src="images/pho03.jpg"  alt="" width="100" height="100"/>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p></dd>
-<dt><h5><i class="icon-file-text-alt"></i> <a href="#">贊助我們</a></h5></dt>
-<dd class="row">
-<p><img src="images/pho03.jpg"  alt="" width="100" height="100"/>文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字文字</p></dd>
+	<h5><i class="icon-file-text-alt"></i> <a href="buy_login.html">購買產品</a></h5></dt>
+	<dd class="row">
+	<p><img src="images/shopping.jpg"  alt="" width="100" height="100"/>It's Shopping Times.</p></dd>
+	<dt>
+	<h5><i class="icon-file-text-alt"></i> <a href="feature.html">當地特色</a></h5></dt>
+	<dd class="row">
+	<p><img src="images/南投當地特色.jpg"  alt="" width="100" height="100"/>南投風貌</p></dd>
+	<dt><h5><i class="icon-file-text-alt"></i> <a href="donate_login.html">贊助我們</a></h5></dt>
+	<dd class="row">
+	<p><img src="images/money.jpg"  alt="" width="100" height="100"/>您的贊助是我們進步的最大動力</p></dd>
 </dl>
 </aside>
 
